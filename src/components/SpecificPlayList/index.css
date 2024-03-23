@@ -1,0 +1,68 @@
+.specific-players-list-bg-container {
+  background-color: #181818;
+  display: flex;
+}
+.specific-players-list-content-container {
+  display: flex;
+  flex-direction: column;
+  padding-top: 30px;
+  width: 100%;
+}
+.top-part {
+  display: flex;
+  height: 270px;
+  margin-left: 40px;
+}
+.poster-props {
+  height: 270px;
+  width: 270px;
+  border-radius: 10px;
+}
+.top-sub-part {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  margin-left: 10px;
+}
+.players-list-title {
+  color: #fff;
+  font-size: 48px;
+  font-weight: 500;
+}
+.player-list-description {
+  color: #fff;
+  font-size: 16px;
+}
+.line {
+  color: #475569;
+  width: 100%;
+}
+.specific-play-list-songs-container {
+  margin-top: 20px;
+  margin-left: 40px;
+}
+.specific-play-list-titles-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-right: 30px;
+}
+.specific-play-list-titles {
+  color: #fff;
+  font-size: 14px;
+}
+.play-list-titles-container {
+  width: 120px;
+}
+.ordered-list-items {
+  list-style-type: upper-alpha;
+  color: #fff;
+  font-size: 12px;
+  padding-bottom: 40px;
+}
+.bottom-music-player {
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  background-color: #181818;
+}

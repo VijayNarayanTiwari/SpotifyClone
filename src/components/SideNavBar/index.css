@@ -1,0 +1,69 @@
+.navbar-container {
+  display: flex;
+  flex-direction: column;
+  width: 100px;
+  height: 100vh;
+  background-color: #040306;
+  padding-top: 20px;
+}
+.profile-container {
+  display: flex;
+  justify-content: center;
+}
+.profile {
+  width: 80px;
+  height: 50px;
+}
+.routes-container {
+  display: flex;
+  flex-direction: column;
+  margin-top: 200px;
+}
+.route-container-profile {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100px;
+  background-color: #040306;
+}
+.route-container-profile:hover {
+  opacity: 0.5;
+}
+.route-container-home {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100px;
+  background-color: #040306;
+}
+.route-container-home:hover {
+  opacity: 0.5;
+}
+.route-container-music {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100px;
+  background-color: #040306;
+}
+.route-container-music:hover {
+  opacity: 0.5;
+}
+.route-container-playlist {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100px;
+  background-color: #040306;
+}
+.route-container-playlist:hover {
+  opacity: 0.5;
+}
+.nav-name {
+  color: #9b9b9b;
+  font-size: 11px;
+}
